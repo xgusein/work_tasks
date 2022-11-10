@@ -21,13 +21,6 @@ function display_array()
    document.getElementById("Result").innerHTML = e;
 };
 
-// console.log(array);
-// targetSum = 10;
-
-// function Sum() {
-    
-// }
-
 function sums(array, sum) {
   let pairs = [];
   let numList = [];
