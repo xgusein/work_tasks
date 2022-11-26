@@ -1,0 +1,24 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.App {
+  background-color: #515151;
+}
+.App-header {
+  background-color: #19191C;
+  min-height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

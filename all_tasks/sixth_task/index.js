@@ -10,7 +10,7 @@
 // console.log(arr4.flat(Infinity));
 
 // function Flat (arry) {
-//     arry.flat(Infinity);
+//     arry.flat(Infinity); // muellim bununlada yoxlamaqa caslisdim amma alinmadi funksiyada islemedi
 // };
 
 // console.log(Flat(arr4));

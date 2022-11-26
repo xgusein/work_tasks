@@ -1,0 +1,129 @@
+html {
+    font-size: 12px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: absolute;
+    margin-left: 7rem;
+    top: 1.8rem;
+}
+
+nav ul li a{
+    /* text-decoration: none;
+    padding: 9px 3px;
+    width: 50rem;
+    color: white;
+    background-color: #31313A;
+    text-transform: uppercase; */
+    text-decoration: none;
+    color: white;
+    width: 72px;
+    padding: 9px 3px;
+}
+
+nav ul li {
+    text-align: center;
+    list-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.bar {
+    padding: 9px 3px;
+    position: relative;
+    display: block;
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #31313A;
+}
+
+.basket ,.about ,.resume, .works ,.blog, .contact, .product {
+    padding: 9px 3px;
+    position: relative;
+    display: block;
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #31313A;
+}
+
+.header_shadow {
+    background-color: rgba(255, 152, 0, 0.4);
+    width: 42rem;
+    position: absolute;
+    height: 36.5rem;
+    border-radius: 3px;
+    opacity: 0.5;
+    top: 1rem;
+    left: 17rem;
+}
+
+.text {
+    font-size: 1rem;    
+}
+
+.wave {
+    position: absolute;
+    z-index: 2;
+}
+
+.img{
+    position: absolute;
+    left: 35.5rem;
+    top:22rem;
+    z-index: 6;
+    border: 3px solid #31313A;
+    border-radius: 50%;
+    height: 10rem;
+}
+
+.img img {
+    border-radius: 50%;
+    height: 10rem;
+}
+
+.inf {
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: #31313A;
+    width: 42rem;
+    left: 18rem;
+    z-index: 9;
+    top: 33.93rem;
+}
+.inf h1 {
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+.name_works {
+    margin-left: 2rem;
+    color: #FF9800;
+    font-size: 1.2rem;
+    margin-top: 0.1rem;
+}
+
+.social_media {
+    display: flex;
+    margin-left: 15rem;
+    margin-top: 1rem;
+}
+
+.social_media a {
+    margin: 10px;
+    color: white;
+}
+
+.social_media a:hover {
+    color: #FF9800;
+    transition: 0.35s;
+}
