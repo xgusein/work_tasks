@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 html {
     font-size: 12px;
+    font-family:'Poppins';
 }
 * {
     margin: 0;
@@ -23,37 +25,40 @@ nav ul li a{
     color: white;
     width: 72px;
     padding: 9px 3px;
+    font-size: 1.2rem;
 }
 
 nav ul li {
     text-align: center;
     list-style: none;
-    border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 0.04px;
+}
+
+nav ul li :hover {
+    color: #FF9800;
+    transition: 0.5s;
+}
+
+.icon_design {
+    font-size: 2rem;
+    padding: 9px 3px;
 }
 
 .bar {
-    padding: 9px 3px;
-    position: relative;
-    display: block;
-    height: auto;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 500;
+    /* padding: 9px 3px; */
     text-transform: uppercase;
     background-color: #31313A;
 }
-
-.basket ,.about ,.resume, .works ,.blog, .contact, .product {
-    padding: 9px 3px;
-    position: relative;
-    display: block;
-    height: auto;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
+.basket {
     text-transform: uppercase;
     background-color: #31313A;
+}
+.about ,.resume, .works ,.blog, .contact, .product {
+    /* padding: 9px 3px; */
+    text-transform: uppercase;
+    background-color: #31313A;
+    height: 6rem;
+    width: 6rem;
 }
 
 .header_shadow {
@@ -121,9 +126,41 @@ nav ul li {
 .social_media a {
     margin: 10px;
     color: white;
+    font-size: 1.2rem;
 }
 
 .social_media a:hover {
     color: #FF9800;
     transition: 0.35s;
 }
+
+.inf_buttons {
+    display: flex;
+    margin-top: 4.5rem;
+}
+
+.inf_buttons a{
+    color: #FFFFFFD9;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    opacity: 1;
+    font-family:'Poppins';font-size: 14px;font-weight:800; ;
+    border-top: 0.1px solid #4b4b50 ;
+    border-left: 0.1px solid #4b4b50;
+
+}
+
+.inf_buttons a:hover {
+    color: #FF9800;
+    transition: 0.5s;
+}
+
+.span_i {
+    margin-left: 0.65rem;
+    position: relative;
+    font-family:'Poppins';
+}
+

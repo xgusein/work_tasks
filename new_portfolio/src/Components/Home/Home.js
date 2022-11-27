@@ -1,46 +1,43 @@
-import ReactDOM from 'react-dom';
-import React, {useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Typewriter from  "typewriter-effect"
-import { faUser, faBars, faCartShopping, faTableList , faFolderOpen, faMoneyCheck, faPaperPlane,faBasketball, faGithub,faSpotify} from '@fortawesome/free-solid-svg-icons'
+import { AiFillGithub,AiOutlineTwitter } from 'react-icons/ai';
+import { BsSpotify, BsStackOverflow } from 'react-icons/bs';
+import { BiUser } from 'react-icons/bi';
+import { FaRegFolderOpen, FaRegPaperPlane ,FaShoppingCart } from 'react-icons/fa';
+import { CiBasketball,CiUser } from 'react-icons/ci';
+import { faUser, faCartShopping,faBarsStaggered, faTableList , faMoneyCheck, faDownload, faCaretRight} from '@fortawesome/free-solid-svg-icons'
 import "./Home.css";
 
+
 const Home = () => {
-    // const [state] = useState({
-    //     title:"Photographer",
-    //     titleTwo:"Web Design",
-    //     titleThree:"Freelancer",
-    //     titleFour:"Blogger"
-    // })
   return (
    <>
          <nav>
             <div className="menu-link">
             <ul>
                 <li className='bar'>
-                    <a href=""><FontAwesomeIcon icon={faBars}/></a>
-                    
+                    <a href=""><FontAwesomeIcon className='icon_design' icon={faBarsStaggered}/></a>
                 </li>
                 <li className='basket'>
-                    <a href=""><FontAwesomeIcon icon={ faCartShopping}/><p className='text'></p></a>
+                    <a href=""><FaShoppingCart className='icon_design'/><p className='text'></p></a>
                 </li>
                 <li className='about'>
-                    <a href=""><FontAwesomeIcon icon={faUser}/><p className='text'>About</p></a>
+                    <a href=""><CiUser style={{fontWeight:"bold"}} className='icon_design'/><p className='text'>About</p></a>
                 </li>
                 <li className='resume'>
-                    <a href=""><FontAwesomeIcon icon={faTableList}/><p className='text'>Resume</p></a>
+                    <a href=""><FontAwesomeIcon className='icon_design' icon={faTableList}/><p className='text'>Resume</p></a>
                 </li>
                 <li className='works'>
-                    <a href=""><FontAwesomeIcon icon={faFolderOpen}/><p className='text'>Works</p></a>
+                    <a href=""><FaRegFolderOpen className='icon_design'/><p className='text'>Works</p></a>
                 </li>
                 <li className='blog'>
-                    <a href=""><FontAwesomeIcon icon={faMoneyCheck}/><p className='text'>Blog</p></a>
+                    <a href=""><FontAwesomeIcon className='icon_design' icon={faMoneyCheck}/><p className='text'>Blog</p></a>
                 </li>
                 <li className='contact'>
-                    <a href=""><FontAwesomeIcon icon={faPaperPlane}/><p className='text'>Contact</p></a>
+                    <a href=""><FaRegPaperPlane className='icon_design'/><p className='text'>Contact</p></a>
                 </li>
                 <li className='product'>
-                    <a href=""><FontAwesomeIcon icon={faCartShopping}/><p className='text'>Products</p></a>
+                    <a href=""><FontAwesomeIcon className='icon_design' icon={faCartShopping}/><p className='text'>Products</p></a>
                 </li>
             </ul>
         </div>
@@ -86,11 +83,15 @@ const Home = () => {
                         />
                     </div>
                     <div className="social_media">
-                        <a href=""><FontAwesomeIcon icon={faBasketball} /></a>
-                        <a href=""><FontAwesomeIcon icon={faBasketball} /></a>
-                        <a href=""><FontAwesomeIcon icon={faBasketball} /></a>
-                        <a href=""><FontAwesomeIcon icon={faBasketball} /></a>
-                        <a href=""><FontAwesomeIcon icon={faBasketball} /></a>
+                        <a href=""><CiBasketball/></a>
+                        <a href=""><AiOutlineTwitter/></a>
+                        <a href=""><AiFillGithub/></a>
+                        <a href=""><BsSpotify /></a>
+                        <a href=""><BsStackOverflow /></a>
+                    </div>
+                    <div className="inf_buttons">
+                        <a href=""><span>DOWNLOAD SV <FontAwesomeIcon className='span_i' icon={faDownload}/></span></a>
+                        <a href=""><span>CONTACT ME <FontAwesomeIcon className='sapn_i' style={{fontSize:"1.5rem"}} icon={faCaretRight}/></span></a>
                     </div>
                 </div>
             </div>
