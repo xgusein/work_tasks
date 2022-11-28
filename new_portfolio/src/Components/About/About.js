@@ -1,9 +1,10 @@
+
 import './About.css';
 
 function About() {
   return (
     <section id='About'>
-        <h1 className='About_Me'>About Me</h1>
+        <div className="title"><h1 className='About_Me'><span style={{color:"#FF9800"}}>A</span>bout Me</h1></div>
         <div className="circle"></div>
         <div className="about_info">
             <h2>Hello! I’m Ryan Adlard.</h2>
@@ -12,17 +13,17 @@ function About() {
             </p>
             <table>
                 <th>
-                    <tr>AGE:....<span>24</span></tr>
-                     <tr>FREELANCE:....<span>Available</span></tr>
+                    <tr>AGE:<span> . . . .  24</span></tr>
+                     <tr>FREELANCE:<span> . . . .  Available</span></tr>
                 </th>
-                <th>
-                    <tr>RESIDANCE:....<span>USA</span></tr>
-                    <tr>ADDRESS:.... <span>California, USA</span></tr>
+                <th className="second_col">
+                    <tr>RESIDANCE:<span> . . . . USA</span></tr>
+                    <tr>ADDRESS:<span> . . . .  California, USA</span></tr>
                 </th>
             </table>
         </div>
         <div className="services_info">
-            <h1>My Services</h1>
+            <div className="title"><h1 className='About_Me'><span style={{color:"#FF9800"}}>M</span>y Services</h1></div>
             <div className="circle2"></div>
             <table>
                 <tr className='services_col'>
