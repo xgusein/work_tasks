@@ -10,8 +10,9 @@ html {
 
 nav {
     position: absolute;
-    margin-left: 7rem;
+    margin-left: 7.2rem;
     top: 3.7rem;
+    z-index: 10;
 }
 
 nav ul li a{
@@ -86,16 +87,15 @@ nav ul :hover {
     border-bottom-right-radius: 5px;
 }
 
-
 .header_shadow {
     background-color: rgba(255, 152, 0, 0.4);
     width: 42rem;
     position: absolute;
     height: 51rem;
     border-radius: 3px;
-    opacity: 0.5;
+    opacity: 0.3;
     top: 1rem;
-    left: 17rem;
+    left: 12.9rem;
 }
 
 .text {
@@ -104,14 +104,19 @@ nav ul :hover {
 
 .wave {
     position: absolute;
-    z-index: 2;
+    z-index: 1;
+    /* margin-left: -4rem; */
 }
+
+/* .portfolio .slide {
+    margin-left: -4rem;
+} */
 
 .img{
     position: absolute;
-    left: 35.5rem;
+    left: 30rem;
     top:22rem;
-    z-index: 6;
+    z-index: 1;
     border: 3px solid #31313A;
     border-radius: 50%;
     height: 10rem;
@@ -128,7 +133,7 @@ nav ul :hover {
     color: white;
     background-color: #31313A;
     width: 42rem;
-    left: 18rem;
+    left: 14rem;
     z-index: 9;
     top: 33.93rem;
 }
