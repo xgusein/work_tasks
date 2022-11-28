@@ -1,4 +1,4 @@
-
+import { FaCode,FaMusic,FaBullhorn,FaGamepad, FaAngleRight, FaRocket, FaCrown } from 'react-icons/fa';
 import './About.css';
 
 function About() {
@@ -27,37 +27,68 @@ function About() {
             <div className="circle2"></div>
             <table>
                 <tr className='services_col'>
-                    <th className='services_row'>
-                        <div className="icon"></div>
-                        <h3></h3>
-                        <p></p>
+                    <th className='services_row line bottom'>
+                        <div className="icon"><FaCode/></div>
+                        <div className="services_circle"></div>
+                        <h3>Web Development</h3>
+                        <p>Modern and mobile-ready website <br/>
+                            that will help you reach all of your <br/>marketing.</p>
                     </th>
-                    <th className='services_row'>
-                        <div className="icon"></div>
-                        <h3></h3>
-                        <p></p>
+                    <th className='services_row bottom'>
+                        <div className="icon"><FaMusic/></div>
+                        <div className="services_circle"></div>
+                        <h3>Music Writing</h3>
+                        <p>Music copying, writing, creating, <br/> transcription, arranging and <br/> composition services.</p>
                     </th>
                 </tr>
                 <tr className='services_col'>
-                    <th className='services_row'>
-                        <div className="icon"></div>
-                        <h3></h3>
-                        <p></p>
+                    <th className='services_row line'>
+                        <div className="icon"><FaBullhorn/></div>
+                        <div className="services_circle"></div>
+                        <h3>Advetising</h3>
+                        <p>Advertising services include <br/> television, radio, print, mail, and web <br/> apps.</p>
                     </th>
                     <th className='services_row'>
-                        <div className="icon"></div>
-                        <h3></h3>
-                        <p></p>
+                        <div className="icon"><FaGamepad/></div>
+                        <div className="services_circle"></div>
+                        <h3>Game Development</h3>
+                        <p>Developing memorable and unique <br /> mobile android, ios and video <br /> games.</p>
                     </th>
                 </tr>
             </table>
         </div>
         <div className="pricing_info">
-            <h1>Pricing</h1>
+            <div className="title"><h1 className='About_Me'><span style={{color:"#FF9800"}}>P</span>ricing</h1></div>
             <div className="circle3"></div>
             <table>
-                <tr></tr>
-                <tr></tr>
+                <tr>
+                    <th className='priceTable_th '>
+                        <div className="icon"><FaRocket/></div>
+                        <h2>Popular</h2>
+                        <div className="price"><span className="$"></span>48 <span>hour</span></div>
+                        <div className="price_info">
+                            <h4>Web Development</h4>
+                            <h4>Advetising</h4>
+                            <h4>Game Development</h4>
+                            <h4>Music Writing <strong>new</strong></h4>
+                            <h4>Photography <strong>new</strong></h4>
+                        </div>
+                        <a href="">ORDER NOW <FaAngleRight/></a>
+                    </th>
+                    <th className='priceTable_th'>
+                        <div className="icon"><FaCrown/></div>
+                        <h2>Premium</h2>
+                        <div className="price"><span className="$"></span>48 <span>hour</span></div>
+                        <div className="price_info">
+                            <h4>Web Development</h4>
+                            <h4>Advetising</h4>
+                            <h4>Game Development</h4>
+                            <h4>Music Writing <strong>new</strong></h4>
+                            <h4>Photography <strong>new</strong></h4>
+                        </div>
+                        <a href="">ORDER NOW <FaAngleRight/></a>
+                    </th>
+                </tr>
             </table>
         </div>
     </section>
