@@ -65,7 +65,7 @@ function About() {
                     <th className='priceTable_th '>
                         <div className="icon"><FaRocket/></div>
                         <h2>Popular</h2>
-                        <div className="price"><span className="$"></span>48 <span>hour</span></div>
+                        <div className="price"><span className="$"></span>22 <span className='price_color'>hour</span></div>
                         <div className="price_info">
                             <h4>Web Development</h4>
                             <h4>Advetising</h4>
@@ -75,10 +75,11 @@ function About() {
                         </div>
                         <a href="">ORDER NOW <FaAngleRight/></a>
                     </th>
+                    <div className="ab"></div>
                     <th className='priceTable_th'>
                         <div className="icon"><FaCrown/></div>
                         <h2>Premium</h2>
-                        <div className="price"><span className="$"></span>48 <span>hour</span></div>
+                        <div className="price"><span className="$"></span>48 <span className='price_color'>hour</span></div>
                         <div className="price_info">
                             <h4>Web Development</h4>
                             <h4>Advetising</h4>
