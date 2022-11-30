@@ -141,8 +141,9 @@ table th {
     text-align: center;
 }
 
-.icon {
-    font-size: 2rem;
+.icon2 {
+    font-size: 2.5rem;
+    color:#ff9800;
 }
 
 .priceTable_th{
@@ -183,11 +184,52 @@ table th {
     border-left: 1px solid #4b4b50;
 }
 
-.priceTable_th a {
+.dollar {
+    font-size: small;
+    position: absolute;
+    margin-top: -0.5rem;
+    margin-left: -1rem;
+}
+
+.circle3 {
+    padding: 13px;
+    opacity:0.4; 
+    background:rgba(255, 152, 0, 0.4);
+    border-radius:50%;
+    width: 1%; 
+    height: 0.6rem;
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 0.5rem;
+}
+
+.price_info h4 strong {
+    background-color:  rgba(255, 152, 0, 0.15);
+    padding: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.9rem;
+}
+.Faicon {
+    position: relative;
+    top: 0.1rem;
+    left: 0.5rem;
+}
+
+.order_button {
     text-align: center;
-    display: flex;
     padding: 1rem;
     text-decoration: none;
     color: white;
     border-top: 0.1px solid #4b4b50;
+    font-size: 1.3rem;
+}
+
+.order_button:hover {
+    color: #ff9800;
+    transition: 0.5s;
+}
+
+.order_button .icon:hover {
+    left: 10px;
 }

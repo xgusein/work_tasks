@@ -1,4 +1,4 @@
-import { FaCode,FaMusic,FaBullhorn,FaGamepad, FaAngleRight, FaRocket, FaCrown } from 'react-icons/fa';
+import { FaCode,FaMusic,FaBullhorn,FaGamepad, FaAngleRight, FaRocket, FaCrown, FaCompactDisc, FaAward, FaCoffee, FaFlag } from 'react-icons/fa';
 import './About.css';
 
 function About() {
@@ -63,34 +63,61 @@ function About() {
             <table>
                 <tr>
                     <th className='priceTable_th '>
-                        <div className="icon"><FaRocket/></div>
+                        <div className="icon2"><FaRocket/></div>
                         <h2>Popular</h2>
-                        <div className="price"><span className="$"></span>22 <span className='price_color'>hour</span></div>
+                        <div className="price"><span className="dollar">$</span>22 <span className='price_color'>hour</span></div>
                         <div className="price_info">
                             <h4>Web Development</h4>
                             <h4>Advetising</h4>
                             <h4>Game Development</h4>
                             <h4>Music Writing <strong>new</strong></h4>
-                            <h4>Photography <strong>new</strong></h4>
+                            <h4 style={{paddingBottom:"20px"}}>Photography <strong>new</strong></h4>
                         </div>
-                        <a href="">ORDER NOW <FaAngleRight/></a>
+                        <a href="" className='order_button'>ORDER NOW <FaAngleRight className='Faicon'/></a>
                     </th>
                     <div className="ab"></div>
                     <th className='priceTable_th'>
-                        <div className="icon"><FaCrown/></div>
+                        <div className="icon2"><FaCrown/></div>
                         <h2>Premium</h2>
-                        <div className="price"><span className="$"></span>48 <span className='price_color'>hour</span></div>
+                        <div className="price"><span className="dollar">$</span>48 <span className='price_color'>hour</span></div>
                         <div className="price_info">
                             <h4>Web Development</h4>
                             <h4>Advetising</h4>
                             <h4>Game Development</h4>
                             <h4>Music Writing <strong>new</strong></h4>
-                            <h4>Photography <strong>new</strong></h4>
+                            <h4 style={{paddingBottom:"20px"}}>Photography <strong>new</strong></h4>
                         </div>
-                        <a href="">ORDER NOW <FaAngleRight/></a>
+                        <a href="" className='order_button'>ORDER NOW <FaAngleRight className='Faicon'/></a>
                     </th>
                 </tr>
             </table>
+        </div>
+        <div className="fun_facts">
+        <div className="title"><h1 className='About_Me'><span style={{color:"#FF9800"}}>F</span>un Facts</h1></div>
+        <div className="circle4"></div>
+        <div className="funFacts_info">
+            <div className="albums">
+                <div className="funFacts_icon"><FaCompactDisc /></div>
+                <h4>80+</h4>
+                <h4>Albumes <br /> Listened</h4>
+            </div>
+            <div className="awards">
+                <div className="funFacts_icon"><FaAward /></div>
+                <h4>15</h4>
+                <h4>Awards <br />Won</h4>
+            </div>
+            <div className="coffe">
+                <div className="funFacts_icon"><FaCoffee /></div>
+                <h4>1000+</h4>
+                <h4>Cups Of <br /> Coffee</h4>
+            </div>
+            <div className="countries">
+                <div className="funFacts_icon"><FaFlag /></div>
+                <h4>10</h4>
+                <h4>Countries <br /> Visited</h4>
+            </div>
+        </div>
+
         </div>
     </section>
   );
