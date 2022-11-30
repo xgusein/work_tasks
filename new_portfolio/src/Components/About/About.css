@@ -141,7 +141,7 @@ table th {
     text-align: center;
 }
 
-.icon2 {
+.icon2 , .funFacts_icon {
     font-size: 2.5rem;
     color:#ff9800;
 }
@@ -191,7 +191,7 @@ table th {
     margin-left: -1rem;
 }
 
-.circle3 {
+.circle3 , .circle4 {
     padding: 13px;
     opacity:0.4; 
     background:rgba(255, 152, 0, 0.4);
@@ -232,4 +232,26 @@ table th {
 
 .order_button .icon:hover {
     left: 10px;
+}
+
+/* Fun facts*/
+
+.fun_facts {
+    margin-top: 4rem;
+}
+
+.funFacts_icon {
+    margin-top: 0.7rem;
+}
+
+.funFacts_table tr th {
+    /* padding-left: 7.8rem; */
+    border-left: 0.1px solid #4b4b50;
+    padding: 4rem;
+}
+
+.txt {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
 }

@@ -96,26 +96,38 @@ function About() {
         <div className="title"><h1 className='About_Me'><span style={{color:"#FF9800"}}>F</span>un Facts</h1></div>
         <div className="circle4"></div>
         <div className="funFacts_info">
-            <div className="albums">
-                <div className="funFacts_icon"><FaCompactDisc /></div>
-                <h4>80+</h4>
-                <h4>Albumes <br /> Listened</h4>
-            </div>
-            <div className="awards">
-                <div className="funFacts_icon"><FaAward /></div>
-                <h4>15</h4>
-                <h4>Awards <br />Won</h4>
-            </div>
-            <div className="coffe">
-                <div className="funFacts_icon"><FaCoffee /></div>
-                <h4>1000+</h4>
-                <h4>Cups Of <br /> Coffee</h4>
-            </div>
-            <div className="countries">
-                <div className="funFacts_icon"><FaFlag /></div>
-                <h4>10</h4>
-                <h4>Countries <br /> Visited</h4>
-            </div>
+            <table className='funFacts_table'>
+                <tr>
+                    <th className='albums'>
+                        <div className="funFacts_icon"><FaCompactDisc /></div>
+                        <div className="txt">
+                            <h4>80+</h4>
+                            <h4>Albumes <br /> Listened</h4>
+                        </div>
+                    </th>
+                    <th className='awards'>
+                        <div className="funFacts_icon"><FaAward /></div>
+                        <div className="txt">
+                            <h4>15</h4>
+                            <h4>Awards <br />Won</h4>
+                        </div>
+                    </th>
+                    <th className='coffe'>
+                        <div className="funFacts_icon"><FaCoffee /></div>
+                        <div className="txt">
+                            <h4>1000+</h4>
+                            <h4>Cups Of <br /> Coffee</h4>
+                        </div>
+                    </th>
+                    <th className='countries'>
+                        <div className="funFacts_icon"><FaFlag /></div>
+                        <div className="txt">
+                            <h4>10</h4>
+                            <h4>Countries <br /> Visited</h4>
+                        </div>
+                    </th>
+                </tr>
+            </table>
         </div>
 
         </div>
