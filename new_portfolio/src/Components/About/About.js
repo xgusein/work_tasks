@@ -1,6 +1,7 @@
 import { FaCode,FaMusic,FaBullhorn,FaGamepad, FaAngleRight, FaRocket, FaCrown, FaCompactDisc, FaAward, FaCoffee, FaFlag } from 'react-icons/fa';
 import './About.css';
 // import Testimontial from './Testimontials';
+import Testimonials from '../TestimonialsSection';
 
 function About() {
   return (
@@ -133,9 +134,11 @@ function About() {
 
         </div>
         <div className="Testi">
-            {/* <Testimontial/> */}
+            <div className="title Testi_title"><h1 className='About_Me'><span style={{color:"#FF9800"}}>T</span>estimonials</h1></div>
+            <div className="circle4"></div>
+            <Testimonials/>
         </div>
-    </section>
+    </section> 
   );
 }
 
