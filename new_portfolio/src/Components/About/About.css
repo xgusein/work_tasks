@@ -9,10 +9,13 @@
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
     font-family:'Poppins';
+    position: fixed;
+    overflow: scroll;
+    max-height:48rem ;
 }
 
 .title {
-    padding: 25px 0 20px 20px;
+    padding: 28px 0 23px 23px;
     border-bottom: 0.1px solid #4b4b50;
     font-size: 1.5rem;
     font-weight: 600;
@@ -258,4 +261,36 @@ table th {
 
 .Testi {
     margin-top: 1.5rem;
+}
+
+.links a {
+    margin-top: 3rem;
+    padding: 2.4rem;
+    opacity: 0.4;
+    border-left: 0.1px solid #4b4b50;
+}
+
+.links a:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.links a img {
+    width: 10rem;
+    position: relative;
+    top: 2rem;
+}
+
+.Custom_text {
+    position: relative;
+    margin-top: 7rem;
+}
+
+.Customtxt {
+    line-height: 1.7;
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    color: #7e7e89;
+    padding-bottom: 4.3rem;
 }

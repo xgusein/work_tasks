@@ -131,12 +131,38 @@ function About() {
                 </tr>
             </table>
         </div>
-
         </div>
         <div className="Testi">
             <div className="title Testi_title"><h1 className='About_Me'><span style={{color:"#FF9800"}}>T</span>estimonials</h1></div>
             <div className="circle4"></div>
             <Testimonials/>
+        </div>
+        <div className="Clients">
+        <div className="title Testi_title"><h1 className='About_Me'><span style={{color:"#FF9800"}}>C</span>lients</h1></div>
+            <div className="circle4"></div>
+            <div className="links">
+                <a href="">
+                    <img src="https://bslthemes.com/ryancv/dark-demo/wp-content/uploads/2022/07/brand3-184x62.png" alt="" />
+                </a>
+                <a href="">
+                    <img src="https://bslthemes.com/ryancv/dark-demo/wp-content/uploads/2022/07/brand2_w-184x62.png" alt="" />
+                </a>
+                <a href="">
+                    <img src="https://bslthemes.com/ryancv/dark-demo/wp-content/uploads/2022/07/brand1_w-184x62.png" alt="" />
+                </a>
+                <a href="">
+                    <img src="https://bslthemes.com/ryancv/dark-demo/wp-content/uploads/2022/07/brand3_w-184x62.png" alt="" />
+                </a>
+            </div>
+        </div>
+        <div className="Custom_text">
+            <div className="title Testi_title"><h1 className='About_Me'><span style={{color:"#FF9800"}}>C</span>ustom Text</h1></div>
+            <div className="circle4"></div>
+            <div className="Customtxt">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates repellendus, consequatur accusantium placeat facilis aut neque id natus architecto provident ab, fuga nesciunt, sit maxime reprehenderit dicta earum nobis quae.
+                </p>
+            </div>
         </div>
     </section> 
   );

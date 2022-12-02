@@ -4,6 +4,7 @@
 }
 .App {
   background-color: #515151;
+  position: fixed;
 }
 .App-header {
   background-color: #19191C;

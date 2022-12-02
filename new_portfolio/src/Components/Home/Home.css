@@ -2,6 +2,8 @@
 html {
     font-size: 12px;
     font-family:'Poppins';
+    /* position: fixed; */
+    background-color: #19191C;
 }
 * {
     margin: 0;
@@ -86,7 +88,6 @@ nav ul :hover {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
 .header_shadow {
     background-color: rgba(255, 152, 0, 0.4);
     width: 42rem;
@@ -194,4 +195,3 @@ nav ul :hover {
     position: relative;
     font-family:'Poppins';
 }
-
