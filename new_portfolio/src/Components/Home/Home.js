@@ -1,9 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Typewriter from  "typewriter-effect"
 import { AiFillGithub,AiOutlineTwitter } from 'react-icons/ai';
+import { IoSendSharp } from 'react-icons/io5'
 import { BsSpotify, BsStackOverflow, BsCardList } from 'react-icons/bs';
-import { FaRegFolderOpen, FaRegPaperPlane ,FaShoppingCart,FaRegNewspaper, FaOpencart, FaDribbble, FaUserAlt, FaRegUser } from 'react-icons/fa';
-import {  faCartShopping,faBarsStaggered, faDownload, faCaretRight} from '@fortawesome/free-solid-svg-icons'
+import { FaRegFolderOpen, FaRegPaperPlane ,FaShoppingCart,FaRegNewspaper, FaOpencart, FaDribbble, FaRegUser } from 'react-icons/fa';
+import { faBarsStaggered, faDownload} from '@fortawesome/free-solid-svg-icons'
 import "./Home.css";
 
 
@@ -89,7 +90,7 @@ const Home = () => {
                     </div>
                     <div className="inf_buttons">
                         <a href=""><span>DOWNLOAD CV <FontAwesomeIcon className='span_i' icon={faDownload}/></span></a>
-                        <a href=""><span>CONTACT ME <FontAwesomeIcon className='sapn_i' style={{fontSize:"1.5rem"}} icon={faCaretRight}/></span></a>
+                        <a href=""><span>CONTACT ME <IoSendSharp className='sapn_i' /></span></a>
                     </div>
                 </div>
             </div>
