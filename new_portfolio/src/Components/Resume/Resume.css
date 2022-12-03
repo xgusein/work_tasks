@@ -16,39 +16,64 @@
 
 .resume_info table {
     display: flex;
+    /* margin-left: 1rem; */
 }
 
+.resume_info table th tr a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 0.9rem;
+    display: flex;
+    font-size: 1.4rem;
+}
+
+
+
 .date {
-    font-size: 1rem;
-    line-height: 1.1rem;
-    color: #9a9a9a;
-    font-weight: 400;
+    border: 1px solid #4b4b50;
+    width: 45%;
+    padding: 0.1rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.1rem;
 }
 
 .resume_info table th tr p {
-    font-size: 1.2rem;
+    font-size: 1.69rem;
     line-height: 1.7;
     color: #7e7e89;
+}
+
+.resume_info table th {
+    margin-left: 4rem;
 }
 
 .resume_icon {
     position: relative;
     top: 0.3rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #ff9800;
 }
 
 .Resume_head {
-    font-size: 17px;
+    font-size: 2rem;
     font-weight: 600;
-    padding: 2rem;
-    border-bottom:1px solid #4b4b50;;
+    padding: 1rem;
+    border-bottom:1px solid #4b4b50;
+    display: flex;
 }
+
+.Resume_head span {
+    margin-top: -1.4rem;
+    padding: 1rem;
+}
+
 
 .table_head h3 {
     font-weight: 600;
     color: #fff;
     font-size: 1.4rem;
+    margin-top: 0.6rem;
 }
 
 .table_head h3 span {
@@ -58,4 +83,10 @@
 .table_head img {
     position: absolute;
     width: 6rem;
+    left: 22rem;
+    margin-top: -2rem;
+}
+
+.date p {
+    font-size: 0.1rem;
 }
