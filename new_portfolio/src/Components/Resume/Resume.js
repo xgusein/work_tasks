@@ -107,61 +107,61 @@ function Resume() {
                     <tr>
                         <span className="skil">English</span>
                         <div className="progress_circle">
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}} ></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}} ></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}} ></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}} ></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}} ></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}} ></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}} ></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}} ></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}} ></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
                         </div>
                     </tr>
                     <tr>
                         <span className="skil">German</span>
                         <div className="progress_circle">
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
                         </div>
                     </tr>
                     <tr>
                         <span className="skil">Italian</span>
                         <div className="progress_circle">
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
                         </div>
                     </tr>
                     <tr>
                         <span className="skil">French</span>
                         <div className="progress_circle">
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
-                            <span className="progress_circ"></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#ff9800"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
+                            <span className="progress_circ" style={{backgroundColor:"#7e7e89", opacity:"0.3"}}></span>
                         </div>
                     </tr>
                 </th>

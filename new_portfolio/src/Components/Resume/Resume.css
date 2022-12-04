@@ -114,7 +114,6 @@
 .Skilss_head {
     font-size: 1.5rem;
     padding: 0;
-    font-weight: 600;
     color: #FFFFFFD9;
     text-transform: uppercase;
 }
@@ -134,7 +133,7 @@
     margin-top: 1.9rem;
     width: 180%;
     height: 0.4rem;
-    background-color: #FFFFFFD9;
+    background-color: #4b4b50;
 }
 
 .progress_line {
@@ -157,4 +156,22 @@
 
 .line_fourth {
     width: 85%;
+}
+
+.progress_circle {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    margin-left: -1rem;
+}
+
+.progress_circ {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    display: flex;
+    width: 14px;
+    height: 14px;
+    background: #eee;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
 }
