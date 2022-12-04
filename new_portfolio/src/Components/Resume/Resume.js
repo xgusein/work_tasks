@@ -76,30 +76,106 @@ function Resume() {
             <div className="circle"></div>
             <table>
                 <th>
-                    <tr><FaPaintBrush/></tr>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr></tr>
+                    <tr className="Resume_head Skilss_head"><span className="resume_icon skills_icon"><FaPaintBrush/></span> Design</tr>
+                    <tr>
+                        <span className='skil'>Web Design</span>
+                        <div className="progress">
+                            <div className="progress_line line_frist"></div>
+                        </div>
+                    </tr>
+                    <tr>
+                        <span className='skil'>Write Music</span>
+                        <div className="progress">
+                            <div className="progress_line line_second"></div>
+                        </div>
+                    </tr>
+                    <tr>
+                        <span className='skil'>Photoshop</span>
+                        <div className="progress">
+                            <div className="progress_line line_third"></div>
+                        </div>
+                    </tr>
+                    <tr>
+                        <span className='skil'>Graphic Design</span>
+                        <div className="progress">
+                            <div className="progress_line line_fourth"></div>
+                        </div>
+                    </tr>
                 </th>
                 <th>
-                    <tr><FaLanguage/></tr>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr></tr>
+                    <tr className="Resume_head Skilss_head"><span className="resume_icon skills_icon"><FaLanguage/></span>Languages</tr>
+                    <tr>
+                        <span className="skil">English</span>
+                        <div className="progress_circle">
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                        </div>
+                    </tr>
+                    <tr>
+                        <span className="skil">German</span>
+                        <div className="progress_circle">
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                        </div>
+                    </tr>
+                    <tr>
+                        <span className="skil">Italian</span>
+                        <div className="progress_circle">
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                        </div>
+                    </tr>
+                    <tr>
+                        <span className="skil">French</span>
+                        <div className="progress_circle">
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                            <span className="progress_circ"></span>
+                        </div>
+                    </tr>
                 </th>
             </table>
             <table>
                 <th>
-                    <tr><FaTerminal/></tr>
+                    <tr className="Resume_head Skilss_head"><span className="resume_icon skills_icon"><FaTerminal/></span><span>CODING</span></tr>
                     <tr></tr>
                     <tr></tr>
                     <tr></tr>
                     <tr></tr>
                 </th>
                 <th>
-                    <tr><FaList/></tr>
+                    <tr className="Resume_head Skilss_head"><span className="resume_icon skills_icon"><FaList/></span><span>KNOWLEDGE</span></tr>
                     <tr></tr>
                     <tr></tr>
                     <tr></tr>
