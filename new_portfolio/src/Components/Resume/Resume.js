@@ -176,10 +176,54 @@ function Resume() {
                 </th>
                 <th>
                     <tr className="Resume_head Skilss_head"><span className="resume_icon skills_icon"><FaList/></span><span>KNOWLEDGE</span></tr>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr></tr>
+                    <tr className='box'>
+                        <div className="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div className="number">
+                                <h2>87<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 className="text">Progress</h2>
+                    </tr>
+                    <tr className='box'>
+                        <div className="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div className="number">
+                                <h2>87<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 className="text">Progress</h2>
+                    </tr>
+                    <tr className='box'>
+                        <div className="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div className="number">
+                                <h2>87<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 className="text">Progress</h2>
+                    </tr>
+                    <tr className='box'>
+                        <div className="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div className="number">
+                                <h2>87<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 className="text">Progress</h2>
+                    </tr>
                 </th>
             </table>
         </div>
