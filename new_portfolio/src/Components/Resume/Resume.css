@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .Resume {
+    /* font-family:'Poppins'; */
     position: absolute;
     z-index: 10;
     background-color: #31313A;
@@ -13,10 +15,9 @@
     border-top-right-radius: 5px;
 }
 
-
 .resume_info table {
     display: flex;
-    /* margin-left: 1rem; */
+
 }
 
 .resume_info table th tr a {
@@ -26,8 +27,6 @@
     display: flex;
     font-size: 1.4rem;
 }
-
-
 
 .date {
     border: 1px solid #4b4b50;
@@ -68,7 +67,6 @@
     margin-top: -1.4rem;
     padding: 1rem;
 }
-
 
 .table_head h3 {
     font-weight: 600;
@@ -175,4 +173,94 @@
     background: #eee;
     -webkit-border-radius: 14px;
     border-radius: 14px;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 30px 60px rgba(0, 0, 0, .2); */
+}
+
+.box .percent {
+    position: relative;
+    width: 40px;
+    height: 120px;
+}
+
+.box .percent svg {
+    position: relative;
+    width: 150px;
+    height: 90px;
+}
+
+.box .percent svg circle {
+    width: 10px;
+    height: 10px;
+    fill: none;
+    stroke-width: 9.5;
+    stroke: #ff9800;
+    transform: translate(5px,5px);
+    stroke-dasharray: 300;
+    stroke-dashoffset: 150;
+    stroke-linecap: round;
+}
+
+.box .percent svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #f3f3f3;
+}
+
+/* .box .percent svg circle:nth-child(2) {
+    stroke-dasharray: calc(300-(300 * 8) / 100);
+    stroke: #ff9800;
+} */
+
+.box .percent .number {
+    position: relative;
+    top: -9.3rem;
+    left: 2.3rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 0.1rem;
+    align-items: center;
+    color: #fff;
+}
+
+.box .percent .number h2 {
+    font-size: 2rem;
+}
+
+.box .percent .number h2 span {
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+
+.box .text {
+    padding: 10px 0 0;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 6rem;
+    letter-spacing: 1px;
+    margin-left: -3rem;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.Knowledge_icon {
+    color: #ff9800;
+    font-size: 2.1rem;
+    top: 0.5rem;
+    position: relative;
+}
+
+.Knowlodge_text {
+    font-size: 1.3rem;
+    color: #fff;
+    margin-left: 1.5rem;
+    font-weight: 700;
 }

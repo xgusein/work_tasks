@@ -1,4 +1,5 @@
-import { FaBriefcase,FaUniversity,FaPaintBrush,FaLanguage,FaTerminal,FaList,FaAngleRight } from 'react-icons/fa';
+import { FaBriefcase,FaUniversity,FaPaintBrush,FaLanguage,FaTerminal,FaList,FaAngleRight} from 'react-icons/fa';
+import { BsCheck } from 'react-icons/bs';
 import './Resume.css';
 
 function Resume() {
@@ -169,60 +170,93 @@ function Resume() {
             <table>
                 <th>
                     <tr className="Resume_head Skilss_head"><span className="resume_icon skills_icon"><FaTerminal/></span><span>CODING</span></tr>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr></tr>
+                    <th>
+                        <tr className='box'>
+                        <div className="percent">
+                            <svg>
+                                <circle cx="40" cy="40" r="40"></circle>
+                                <circle cx="40" cy="40" r="40"></circle>
+                            </svg>
+                            <div className="number">
+                                <h2>90<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 className="text">WordPress</h2>
+                         </tr>
+                        <tr className='box'>
+                            <div className="percent">
+                                <svg>
+                                    <circle cx="40" cy="40" r="40"></circle>
+                                    <circle cx="40" cy="40" r="40"></circle>
+                                </svg>
+                                <div className="number">
+                                    <h2>85<span>%</span></h2>
+                                </div>
+                            </div>
+                            <h2 className="text">PHP / MYSQL</h2>
+                        </tr>
+                    </th>
+                    <th>
+                        <tr className='box'>
+                            <div className="percent">
+                                <svg>
+                                    <circle cx="40" cy="40" r="40"></circle>
+                                    <circle cx="40" cy="40" r="40"></circle>
+                                </svg>
+                                <div className="number">
+                                    <h2>75<span>%</span></h2>
+                                </div>
+                            </div>
+                            <h2 className="text" style={{lineHeight:"1.3rem",marginLeft:"-2.6rem"}}>Angular / JavaScript</h2>
+                        </tr>
+                        <tr className='box'>
+                            <div className="percent">
+                                <svg style={{marginLeft:"-3.5rem"}} >
+                                    <circle cx="40" cy="40" r="40"></circle>
+                                    <circle cx="40" cy="40" r="40"></circle>
+                                </svg>
+                                <div style={{marginLeft:"-3.5rem"}} className="number">
+                                    <h2>95<span>%</span></h2>
+                                </div>
+                            </div>
+                            <h2 style={{marginLeft:"-7rem"}} className="text">HTML / CSS</h2>
+                        </tr>
+                    </th>
                 </th>
                 <th>
                     <tr className="Resume_head Skilss_head"><span className="resume_icon skills_icon"><FaList/></span><span>KNOWLEDGE</span></tr>
-                    <tr className='box'>
-                        <div className="percent">
-                            <svg>
-                                <circle cx="70" cy="70" r="70"></circle>
-                                <circle cx="70" cy="70" r="70"></circle>
-                            </svg>
-                            <div className="number">
-                                <h2>87<span>%</span></h2>
-                            </div>
-                        </div>
-                        <h2 className="text">Progress</h2>
+                    <tr>
+                        <BsCheck className='Knowledge_icon'/>
+                        <span className="Knowlodge_text">Website hosting</span>
                     </tr>
-                    <tr className='box'>
-                        <div className="percent">
-                            <svg>
-                                <circle cx="70" cy="70" r="70"></circle>
-                                <circle cx="70" cy="70" r="70"></circle>
-                            </svg>
-                            <div className="number">
-                                <h2>87<span>%</span></h2>
-                            </div>
-                        </div>
-                        <h2 className="text">Progress</h2>
+                    <tr>
+                        <BsCheck className='Knowledge_icon'/>
+                        <span className="Knowlodge_text">iOS and android apps</span>
                     </tr>
-                    <tr className='box'>
-                        <div className="percent">
-                            <svg>
-                                <circle cx="70" cy="70" r="70"></circle>
-                                <circle cx="70" cy="70" r="70"></circle>
-                            </svg>
-                            <div className="number">
-                                <h2>87<span>%</span></h2>
-                            </div>
-                        </div>
-                        <h2 className="text">Progress</h2>
+                    <tr>
+                        <BsCheck className='Knowledge_icon'/>
+                        <span className="Knowlodge_text">Create logo design</span>
                     </tr>
-                    <tr className='box'>
-                        <div className="percent">
-                            <svg>
-                                <circle cx="70" cy="70" r="70"></circle>
-                                <circle cx="70" cy="70" r="70"></circle>
-                            </svg>
-                            <div className="number">
-                                <h2>87<span>%</span></h2>
-                            </div>
-                        </div>
-                        <h2 className="text">Progress</h2>
+                    <tr>
+                        <BsCheck className='Knowledge_icon'/>
+                        <span className="Knowlodge_text">Design for print</span>
+                    </tr>
+                    <tr>
+                        <BsCheck className='Knowledge_icon'/>
+                        <span className="Knowlodge_text">Modern and mobile-ready</span>
+
+                    </tr>
+                    <tr>
+                        <BsCheck className='Knowledge_icon'/>
+                        <span className="Knowlodge_text">Advertising services include</span>
+                    </tr>
+                    <tr>
+                        <BsCheck className='Knowledge_icon'/>
+                        <span className="Knowlodge_text">Graphics and animations</span>
+                    </tr>
+                    <tr>
+                        <BsCheck className='Knowledge_icon'/>
+                        <span className='Knowlodge_text'>Search engine marketing</span>
                     </tr>
                 </th>
             </table>

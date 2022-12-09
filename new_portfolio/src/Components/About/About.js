@@ -1,6 +1,5 @@
 import { FaCode,FaMusic,FaBullhorn,FaGamepad, FaAngleRight, FaRocket, FaCrown, FaCompactDisc, FaAward, FaCoffee, FaFlag } from 'react-icons/fa';
 import './About.css';
-// import Testimontial from './Testimontials';
 import Testimonials from '../TestimonialsSection';
 
 function About() {
