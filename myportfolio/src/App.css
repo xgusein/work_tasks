@@ -9,10 +9,10 @@
   /* Color mode HSL(hue, saturation, lightness) */
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat),20%);
+  --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat),98%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
 
   /* Font and typography */
@@ -26,7 +26,7 @@
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
-  --tiny-font-size: 0,625rem;
+  --tiny-font-size: 0, 625rem;
 
   /* Font weight */
 
@@ -53,7 +53,7 @@
 
 }
 
-@media  screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   :root {
     --big-font-size: 2.75rem;
     --h1-font-size: 1.5rem;
@@ -67,7 +67,7 @@
 
 /* Base */
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -90,7 +90,9 @@ body {
   color: var(--text-color);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold)
 }
@@ -149,7 +151,7 @@ img {
 }
 
 /* BUTTONS */
-.button { 
+.button {
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
@@ -175,19 +177,38 @@ img {
     margin-left: var(--mb-1-5);
     margin-left: var(--mb-1-5);
   }
+
+  .button {
+    padding: 1rem 1.75rem;
+  }
+
+  .button__icon {
+    width: 22px;
+    height: 22px;
+  }
 }
 
 /* For medium devices */
 
 @media screen and (max-width:768px) {
-  
+  body {
+    margin: 0 0 var(--header-height);
+  }
+  .section {
+    padding: 2rem 0 4rem;
+  }
+  .section__subtitle {
+    margin-bottom:  var(--mb-3);
+  }
 }
 
-@media screen and (max-width:576) {
-  
-}
+@media screen and (max-width:576px) {}
 
 @media screen and (max-width:350px) {
+  :root {
+    --big-font-size: 2.25rem;
+  }
+
   .container {
     margin-left: var(--mb-1);
     margin-left: var(--mb-1);
