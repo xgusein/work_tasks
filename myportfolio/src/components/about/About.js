@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import './about.css'
-import AboutImg from "../../assets/about.jpg";
+import AboutImg from "../../assets/IMG_2122.jpg";
 import CV from "../../assets/Huseyn Ibadzade-CV (5).pdf";
 import Info from './Info';
 
