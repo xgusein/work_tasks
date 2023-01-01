@@ -13,6 +13,7 @@
     "lodash": "^4.17.21",
     "particles-bg": "^2.5.5",
     "react": "^18.2.0",
+    "react-animated-cursor": "^2.5.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
     "react-responsive-carousel": "^3.2.23",

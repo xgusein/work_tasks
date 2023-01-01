@@ -261,7 +261,19 @@ function Resume() {
                 </th>
             </table>
         </div>
-        <div className="Quote"></div>
+        <div className="Quote">
+            <div className="title"><h1 className='About_Me'><span style={{color:"#FF9800"}}>Q</span>uote</h1></div>
+            <div className="circle"></div>
+            <div className="myCarousel">
+            <img src="https://bslthemes.com/ryancv/dark-demo/wp-content/uploads/2022/07/testi2-184x184.jpg" />
+                <h3>Daniel Keystone</h3>
+                <h4>Designer</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum <br />
+                    dolor sit amet, consectetur adipiscing elit.
+                </p>
+          </div>
+        </div>
     </section>
   );
 }

@@ -264,3 +264,29 @@
     margin-left: 1.5rem;
     font-weight: 700;
 }
+
+.Quote {
+    position: relative;
+    top: 8rem;
+}
+
+.Quote img {
+    border-radius: 50%;
+    width: 100px;
+    /* margin-left: 18rem; */
+    /* margin-left: -6rem; */
+}
+
+.myCarousel {
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: -5rem;
+}
+
+.myCarousel p {
+    font-size: 1.6rem;
+    font-weight: 100 !important;
+    line-height: 2rem !important;
+    color: #7e7e89;
+    font-family: sans-serif;  
+}
