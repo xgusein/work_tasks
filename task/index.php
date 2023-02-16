@@ -1,3 +1,6 @@
+<?php
+$bl = false;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,10 +11,12 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
-
+    <div class="container">
+        <h1>Task List</h1>
     <?php
     $curl = curl_init();
     curl_setopt_array($curl, [
@@ -50,7 +55,7 @@
     $data = json_decode($response, true);
     curl_close($ch);
     ?>
-    <table>
+    <table class="table table-striped">
         <!-- <form class="example"  action="action_page.php">
             <input type="text" placeholder="Search.." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
@@ -62,6 +67,7 @@
         </form>
         <?php
         // Get the search term from the query string
+        $bl = true;
         $searchTerm = isset($_GET['search']) ? $_GET['search'] : '';
 
         // Filter the data based on the search term
@@ -76,66 +82,79 @@
 
         <!-- Display the filtered data -->
         <?php
-// Get the search term from the query string
-$searchTerm = isset($_GET['search']) ? $_GET['search'] : '';
+        // Get the search term from the query string
+        $searchTerm = isset($_GET['search']) ? $_GET['search'] : '';
 
-// Filter the data based on the search term
-if (!empty($searchTerm)) {
-    $filteredData = array_filter($data, function ($task) use ($searchTerm) {
-        return strpos(strtolower($task['title']), strtolower($searchTerm)) !== false;
-    });
-} else {
-    $filteredData = $data;
-}
-?>
+        // Filter the data based on the search term
+        if (!empty($searchTerm)) {
+            $filteredData = array_filter($data, function ($task) use ($searchTerm) {
+                return strpos(strtolower($task['title']), strtolower($searchTerm)) !== false;
+            });
+        } else {
+        ?>
+            <style>
+                .aa {
+                    display: none;
+                }
+            </style><?php
+                    $filteredData = $data;
+                }
+                    ?>
 
-<!-- Display the filtered data -->
-<table>
-    <thead>
-        <tr>
-            <th>Task</th>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Color</th>
-        </tr>
-    </thead>
-    <tbody>
-        <?php foreach ($filteredData as $task) { ?>
-            <tr>
-                <td><?php echo $task['task']; ?></td>
-                <td><?php echo $task['title']; ?></td>
-                <td><?php echo $task['description']; ?></td>
-                <td>
-                    <div style="background-color: <?php echo $task['colorCode']; ?>; width: 20px; height: 20px;"></div>
-                </td>
-            </tr>
-        <?php } ?>
-    </tbody>
-</table>
-
-                    <hr>
-        <thead>
-            <tr>
-                <th>Task</th>
-                <th>Title</th>
-                <th>Description</th>
-                <th>Color</th>
-            </tr>
-        </thead>
-        <tbody>
-            <?php foreach ($data as $task) { ?>
+        <!-- Display the filtered data -->
+        <div>
+            <thead>
                 <tr>
-                    <td><?php echo $task['task']; ?></td>
-                    <td><?php echo $task['title']; ?></td>
-                    <td><?php echo $task['description']; ?></td>
-                    <td>
-                        <div style="background-color: <?php echo $task['colorCode']; ?>; width: 20px; height: 20px;"></div>
-                    </td>
+                    <th>Task</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Color</th>
                 </tr>
-            <?php } ?>
-        </tbody>
+            </thead>
+            <tbody>
+                <?php foreach ($filteredData as $task) { ?>
+                    <tr>
+                        <td><?php echo $task['task']; ?></td>
+                        <td><?php echo $task['title']; ?></td>
+                        <td><?php echo $task['description']; ?></td>
+                        <td>
+                            <div style="background-color: <?php echo $task['colorCode']; ?>; width: 20px; height: 20px;"></div>
+                        </td>
+                    </tr>
+                <?php } ?>
+            </tbody>
+        </div>
+        <?php
+        if ($bl == false) {
+
+        ?>
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Color</th>
+                </tr>
+            </thead>
+            <tbody class="aa">
+                <?php foreach ($data as $task) { ?>
+                    <tr>
+                        <td><?php echo $task['task']; ?></td>
+                        <td><?php echo $task['title']; ?></td>
+                        <td><?php echo $task['description']; ?></td>
+                        <td>
+                            <div style="background-color: <?php echo $task['colorCode']; ?>; width: 20px; height: 20px;"></div>
+                        </td>
+                    </tr>
+                <?php } ?>
+            </tbody>
+        <?php } ?>
+
     </table>
+    </div>
     <!-- <script src="./script2.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 
