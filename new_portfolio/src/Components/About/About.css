@@ -1,0 +1,295 @@
+#About {
+    width:50%;
+    background-color: #31313A;
+    color: white;
+    margin-left: 55.9rem;
+    top: 50px;
+    position: absolute;
+    z-index: 0;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family:'Poppins';
+    position: fixed;
+    overflow: scroll;
+    max-height:48rem ;
+}
+
+.title {
+    padding: 28px 0 23px 23px;
+    border-bottom: 0.1px solid #4b4b50;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.circle {
+    position: absolute;
+    top:2rem;
+    left: 0.8rem;
+    padding: 13px;
+    opacity:0.4; 
+    background:rgba(255, 152, 0, 0.4);
+    border-radius:50%;
+    width: 1%; 
+    height: 0.6rem;
+}
+
+.about_info {
+    color: #FFFFFF8C;
+    font-size: 1.3rem;
+    padding: 30px;
+}
+
+.about_info h2 {
+    font-family:'Poppins';
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+}
+
+.about_info p {
+    line-height: 2.3rem;
+    font-family:'Poppins';
+    font-weight: 300;
+}
+
+table {
+    margin-top: 1rem;
+    font-family:'Poppins';
+    font-weight: 300;
+}
+
+table th tr{
+    text-align: start;
+    color: white;
+}
+
+table th tr span {
+    color:#FFFFFF8C;
+}
+
+table th {
+    line-height: 2.3rem;
+    font-family:'Poppins';
+    font-weight: 300;
+}
+
+.second_col {
+    padding-left: 10rem;
+    font-family:'Poppins';
+    font-weight: 300;
+}
+
+.circle2 {
+    position: absolute;
+    padding: 15px;
+    opacity:0.4; 
+    background:rgba(255, 152, 0, 0.4);
+    border-radius:50%;
+    width: 1.5%; 
+    height: 0.6rem;
+    margin-top: -3.8rem;
+    margin-left: 0.8rem;
+}
+
+.services_info table {
+    margin-left: 0.6rem;
+}
+
+.services_row {
+    text-align: start;
+    padding: 28px;
+}
+
+.services_row h3 {
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.services_row p {
+    font-size: 1.2rem;
+    color: #FFFFFF8C;
+}
+
+.line {
+    border-right: 0.1px solid #4b4b50;
+}
+
+.bottom {
+    border-bottom: 0.1px solid #4b4b50;
+}
+
+.icon {
+    line-height: 3.7rem;
+    font-size: 3.3rem;
+    color:#ff9800;
+    margin-left: 1rem;
+}
+
+.services_circle {
+    position: absolute;
+    /* top:2rem; */
+    /* left: 0.8rem; */
+    margin-top: -5.2rem;
+    margin-left: -0.4rem;
+    padding: 33px;
+    opacity:0.2; 
+    background:rgba(255, 152, 0, 0.4);
+    border-radius:50%;
+    width: 1%; 
+    height: 0.6rem;
+}
+
+.pricing_info table {
+    text-align: center;
+}
+
+.icon2 , .funFacts_icon {
+    font-size: 2.5rem;
+    color:#ff9800;
+}
+
+.priceTable_th{
+    text-align: center;
+    padding-left: 6.3rem;
+    padding-top: 2.5rem;
+}
+
+.priceTable_th h2 {
+    font-size: 1.3rem;
+    line-height: 3.5rem;
+}
+
+.price {
+    font-size: 2.5rem;
+    line-height: 6rem;
+    font-weight: 600;
+}
+
+.price_color {
+    color: #7e7e89;
+    opacity: 0.7;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.priceTable_th h4 {
+    padding: 8px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.ab {
+    padding: 1px;
+    margin-left: 7rem;
+    height: 33rem;
+    border-left: 1px solid #4b4b50;
+}
+
+.dollar {
+    font-size: small;
+    position: absolute;
+    margin-top: -0.5rem;
+    margin-left: -1rem;
+}
+
+.circle3 , .circle4 {
+    padding: 13px;
+    opacity:0.4; 
+    background:rgba(255, 152, 0, 0.4);
+    border-radius:50%;
+    width: 1%; 
+    height: 0.6rem;
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 0.5rem;
+}
+
+.price_info h4 strong {
+    background-color:  rgba(255, 152, 0, 0.15);
+    padding: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.9rem;
+}
+.Faicon {
+    position: relative;
+    top: 0.1rem;
+    left: 0.5rem;
+}
+
+.order_button {
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    border-top: 0.1px solid #4b4b50;
+    font-size: 1.3rem;
+}
+
+.order_button:hover {
+    color: #ff9800;
+    transition: 0.5s;
+}
+
+.order_button .icon:hover {
+    left: 10px;
+}
+
+/* Fun facts*/
+
+.fun_facts {
+    margin-top: 4rem;
+}
+
+.funFacts_icon {
+    margin-top: 0.7rem;
+}
+
+.funFacts_table tr th {
+    /* padding-left: 7.8rem; */
+    border-left: 0.1px solid #4b4b50;
+    padding: 4rem;
+}
+
+.txt {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+
+.Testi {
+    margin-top: 1.5rem;
+}
+
+.links a {
+    margin-top: 3rem;
+    padding: 2.4rem;
+    opacity: 0.4;
+    border-left: 0.1px solid #4b4b50;
+}
+
+.links a:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.links a img {
+    width: 10rem;
+    position: relative;
+    top: 2rem;
+}
+
+.Custom_text {
+    position: relative;
+    margin-top: 7rem;
+}
+
+.Customtxt {
+    line-height: 1.7;
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    color: #7e7e89;
+    padding-bottom: 4.3rem;
+}

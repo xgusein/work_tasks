@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.Resume {
+    /* font-family:'Poppins'; */
+    position: absolute;
+    z-index: 10;
+    background-color: #31313A;
+    width: 60rem;
+    color: white;
+    font-family:'Poppins';
+    margin-left: 55.9rem;
+    top: 50px;
+    overflow: scroll;
+    max-height:48rem ;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.resume_info table {
+    display: flex;
+
+}
+
+.resume_info table th tr a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 0.9rem;
+    display: flex;
+    font-size: 1.4rem;
+}
+
+.date {
+    border: 1px solid #4b4b50;
+    width: 45%;
+    padding: 0.1rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+
+.resume_info table th tr p {
+    font-size: 1.69rem;
+    line-height: 1.7;
+    color: #7e7e89;
+}
+
+.resume_info table th {
+    margin-left: 4rem;
+}
+
+.resume_icon {
+    position: relative;
+    top: 0.3rem;
+    font-size: 2.5rem;
+    color: #ff9800;
+}
+
+.Resume_head {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem;
+    margin-left: -2rem;
+    border-bottom:1px solid #4b4b50;
+    display: flex;
+}
+
+.Resume_head span {
+    margin-top: -1.4rem;
+    padding: 1rem;
+}
+
+.table_head h3 {
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.4rem;
+    margin-top: 0.6rem;
+}
+
+.table_head h3 span {
+    font-size: 1rem;
+}
+
+.table_head img {
+    position: absolute;
+    width: 6rem;
+    left: 22rem;
+    margin-top: -2rem;
+}
+
+.date p {
+    font-size: 0.1rem;
+}
+
+.skil {
+    font-size: 1.8rem;
+}
+
+.Skilss table {
+    display: flex;
+    width: 100%;
+}
+
+.Skilss table th {
+    color: #fff;
+    width: 45%;
+    text-align: start;
+    margin-left: 1.5rem;
+}
+
+.Skilss table th tr {
+    padding: 1rem;
+}
+
+.Skilss_head {
+    font-size: 1.5rem;
+    padding: 0;
+    color: #FFFFFFD9;
+    text-transform: uppercase;
+}
+
+.skills_icon {
+    font-size: 2.5rem;
+}
+
+.skil {
+    font-size: 1.5rem;
+    position: relative;
+    top: 1rem;
+    color: #FFFFFFD9;
+}
+
+.progress {
+    margin-top: 1.9rem;
+    width: 180%;
+    height: 0.4rem;
+    background-color: #4b4b50;
+}
+
+.progress_line {
+    margin-top: 1.2rem;
+    height: 0.4rem;
+    background-color: #ff9800;
+}
+
+.line_frist {
+    width: 90%;
+}
+
+.line_second {
+    width: 65%;
+}
+
+.line_third {
+    width: 80%;
+}
+
+.line_fourth {
+    width: 85%;
+}
+
+.progress_circle {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    margin-left: -1rem;
+}
+
+.progress_circ {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    display: flex;
+    width: 14px;
+    height: 14px;
+    background: #eee;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 30px 60px rgba(0, 0, 0, .2); */
+}
+
+.box .percent {
+    position: relative;
+    width: 40px;
+    height: 120px;
+}
+
+.box .percent svg {
+    position: relative;
+    width: 150px;
+    height: 90px;
+}
+
+.box .percent svg circle {
+    width: 10px;
+    height: 10px;
+    fill: none;
+    stroke-width: 9.5;
+    stroke: #ff9800;
+    transform: translate(5px,5px);
+    stroke-dasharray: 300;
+    stroke-dashoffset: 150;
+    stroke-linecap: round;
+}
+
+.box .percent svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #f3f3f3;
+}
+
+/* .box .percent svg circle:nth-child(2) {
+    stroke-dasharray: calc(300-(300 * 8) / 100);
+    stroke: #ff9800;
+} */
+
+.box .percent .number {
+    position: relative;
+    top: -9.3rem;
+    left: 2.3rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 0.1rem;
+    align-items: center;
+    color: #fff;
+}
+
+.box .percent .number h2 {
+    font-size: 2rem;
+}
+
+.box .percent .number h2 span {
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+
+.box .text {
+    padding: 10px 0 0;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 6rem;
+    letter-spacing: 1px;
+    margin-left: -3rem;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.Knowledge_icon {
+    color: #ff9800;
+    font-size: 2.1rem;
+    top: 0.5rem;
+    position: relative;
+}
+
+.Knowlodge_text {
+    font-size: 1.3rem;
+    color: #fff;
+    margin-left: 1.5rem;
+    font-weight: 700;
+}
+
+.Quote {
+    position: relative;
+    top: 8rem;
+}
+
+.Quote img {
+    border-radius: 50%;
+    width: 100px;
+    /* margin-left: 18rem; */
+    /* margin-left: -6rem; */
+}
+
+.myCarousel {
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: -5rem;
+}
+
+.myCarousel p {
+    font-size: 1.6rem;
+    font-weight: 100 !important;
+    line-height: 2rem !important;
+    color: #7e7e89;
+    font-family: sans-serif;  
+}
