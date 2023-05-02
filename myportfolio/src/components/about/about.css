@@ -81,7 +81,7 @@
     .about__info {
         grid-template-columns: repeat(3, 1fr);
     }
-
+    
     .about__description {
         padding: 0;
     }
