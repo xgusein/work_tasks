@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react';
+import Typewriter from "typewriter-effect";
 
 const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Huseyn Ibadzade
+        <Typewriter
+          options={{
+            autoStart:true,
+            loop: true,
+            delay: 150,
+            strings: [
+              "Huseyn Ibadzade"
+            ]
+          }}
+        />
         <svg
           width="36"
           height="36"
