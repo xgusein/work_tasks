@@ -45,8 +45,26 @@
 /* Active link*/
 
 .active-link,
-.nav__link:hover {
+.nav__link:hover,
+.active-link:focus {
     color: var(--title-color-dark);
+}
+
+.nav__link::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: hsl(333, 79%, 55%);
+    left: 0;
+    bottom: -8;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+
+.nav__link:hover::after,
+.active-link:focus::after {
+    opacity: 1;
 }
 
 /* BREAKPOINTS*/
