@@ -3,6 +3,11 @@ import './about.css'
 import AboutImg from "../../assets/IMG_2122.jpg";
 import CV from "../../assets/Huseyn Ibadzade-CV (5).pdf";
 import Info from './Info';
+import lottie from 'lottie-web';
+import { defineElement } from 'lord-icon-element';
+
+// define "lord-icon" custom element with default properties
+defineElement(lottie.loadAnimation);
 
 export class About extends PureComponent {
     render() {
@@ -49,6 +54,7 @@ export class About extends PureComponent {
                                 ></path>
 
                             </svg>
+                            {/* <lord-icon trigger="hover" src="/my-icon.json"></lord-icon> */}
                         </a>
                     </div>
                 </div>
