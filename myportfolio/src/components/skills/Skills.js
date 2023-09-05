@@ -1,9 +1,9 @@
 import React from 'react';
 import './skills.css';
-import { MdKeyboardArrowDown } from 'react-icons/md';
-import { HiServer } from 'react-icons/hi';
-import { FaSwatchbook } from 'react-icons/fa'
-import './skillsapp'
+// import { MdKeyboardArrowDown } from 'react-icons/md';
+// import { HiServer } from 'react-icons/hi';
+// import { FaSwatchbook } from 'react-icons/fa'
+// import './skillsapp'
 import Frontend from './Frontend';
 import Backend from './Backend';
 
@@ -183,6 +183,97 @@ const Skills = () => {
         //                     </div>
         //                 </div>
         //             </div>
+        //         </div>
+        //     </div>
+        // </section>
+
+        // <section className="mh-skills" id='mh-skills'>
+        //     <div className="container">
+        //         <div className="row">
+        //             <div className="col-sm-12 col-md-6">
+        //                 <div className="mh-skills-inner">
+        //                     <div className="mh-professional-skill">
+        //                         <h3>Technical Skills</h3>
+        //                         <div className="each-skills">
+        //                             <div className="candidatos">
+        //                                 <div className="parcial">
+        //                                     <div className="info">
+        //                                         <div className="nome">Javascript</div>
+        //                                         <div className="percentage-num">86%</div>
+        //                                     </div>
+        //                                     <div className="progressBar">
+        //                                         <div className="percentagem" style={{ width: '86%' }}></div>
+        //                                     </div>
+        //                                 </div>
+        //                             </div>
+
+        //                             <div className="candidatos">
+        //                                 <div className="parcial">
+        //                                     <div className="info">
+        //                                         <div className="nome">Java</div>
+        //                                         <div className="percentage-num">46%</div>
+        //                                     </div>
+        //                                     <div className="progressBar">
+        //                                         <div className="percentagem" style={{ width: '46%' }}></div>
+        //                                     </div>
+        //                                 </div>
+        //                             </div>
+
+        //                             <div className="candidatos">
+        //                                 <div className="parcial">
+        //                                     <div className="info">
+        //                                         <div className="nome">Python</div>
+        //                                         <div className="percentage-num">38%</div>
+        //                                     </div>
+        //                                     <div className="progressBar">
+        //                                         <div className="percentagem" style={{ width: '38%' }}></div>
+        //                                     </div>
+        //                                 </div>
+        //                             </div>
+
+        //                             <div className="candidatos">
+        //                                 <div className="parcial">
+        //                                     <div className="info">
+        //                                         <div className="nome">PHP</div>
+        //                                         <div className="percentage-num">17%</div>
+        //                                     </div>
+        //                                     <div className="progressBar">
+        //                                         <div className="percentagem" style={{ width: '17%' }}></div>
+        //                                     </div>
+        //                                 </div>
+        //                             </div>
+        //                         </div>
+        //                     </div>
+        //                 </div>
+        //             </div>
+
+        //             <div className="col-sm-12 col-md-6">
+        //                 <div className="mh-professional-skills">
+        //                     <h3>Professional Skills</h3>
+        //                     <ul className='mh-professional-progress'>
+        //                         <li>
+        //                             <div className="mh-progress mh-progress-circle" data-onProgress={95}></div>
+        //                             <div className="pr-skill-name">Communication</div>
+        //                         </li>
+
+        //                         <li>
+        //                             <div className="mh-progress mh-progress-circle" data-onProgress={55}></div>
+        //                             <div className="pr-skill-name">Team work</div>
+        //                         </li>
+
+        //                         <li>
+        //                             <div className="mh-progress mh-progress-circle" data-onProgress={85}></div>
+        //                             <div className="pr-skill-name">Project Managament</div>
+        //                         </li>
+
+        //                         <li>
+        //                             <div className="mh-progress mh-progress-circle" data-onProgress={60}></div>
+        //                             <div className="pr-skill-name">Creativity</div>
+        //                         </li>
+        //                     </ul>
+        //                 </div>
+        //             </div>
+
         //         </div>
         //     </div>
         // </section>

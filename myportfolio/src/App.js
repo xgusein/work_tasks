@@ -10,12 +10,14 @@ import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrUp from './components/scrup/ScrUp';
-
+import ChipTabs from './components/tests';
+import WaterDropGrid from './components/tests';
 function App() {
   return (
     <>
       <Header />
       <main className="main">
+      <WaterDropGrid/>
         <Home />
         <About />
         <Skills />
