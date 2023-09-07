@@ -10,24 +10,43 @@ import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrUp from './components/scrup/ScrUp';
-import ChipTabs from './components/tests';
-import WaterDropGrid from './components/tests';
+import { useState, useEffect } from "react";
+import ScaleLoader from "react-spinners/ScaleLoader";
 function App() {
+  const [loading, setLoading] = useState(false)
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 2000);
+  }, [])
   return (
     <>
-      <Header />
-      <main className="main">
-      <WaterDropGrid/>
-        <Home />
-        <About />
-        <Skills />
-        <Services />
-        <Qualification />
-        <Testimonials/>
-        <Contact /> 
-      </main>
-      <Footer />
-      <ScrUp/>
+      {
+        loading ?
+          <ScaleLoader className='Dotloader'
+            color={'#000000'}
+            loading={loading}
+            size={100}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+          />
+          :
+          <>
+            <Header />
+            <main className="main">
+              <Home />
+              <About />
+              <Skills />
+              <Services />
+              <Qualification />
+              <Testimonials />
+              <Contact />
+            </main>
+            <Footer />
+            <ScrUp />
+          </>
+      }
     </>
   );
 }
