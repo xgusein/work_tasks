@@ -12,17 +12,33 @@ const Social = () => {
       preserveAspectRatio: 'xMidYMid slice'
     }
   }
+  const defaultOptions1 = {
+    loop: true,
+    autoplay: true,
+    animationData: scig,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  }
+  const defaultOptions2 = {
+    loop: true,
+    autoplay: true,
+    animationData: sctrib, 
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  }
 
   return (
     <div className='home__social'>
       <a href="" className="home__social-icon" target="_blank">
-      
+        <Lottie width={100} options={defaultOptions} />
       </a>
       <a href="" className="home__social-icon" target="_blank">
-        <i class="uil uil-dribbble"></i>
+        <Lottie width={40} options={defaultOptions1} />
       </a>
       <a href="" className="home__social-icon" target="_blank">
-      <Lottie width={100}  options={defaultOptions}/>
+        <Lottie width={60}  options={defaultOptions2} />
       </a>
     </div>
   )

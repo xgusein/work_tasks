@@ -12,7 +12,19 @@ import Footer from './components/footer/Footer';
 import ScrUp from './components/scrup/ScrUp';
 import { useState, useEffect } from "react";
 import ScaleLoader from "react-spinners/ScaleLoader";
+// import Lottie from 'react-lottie'
+// import scgit from '../home/animation_lmgbjrp4.json'
+
+
 function App() {
+  // const defaultOptions = {
+  //   loop: true,
+  //   autoplay: true,
+  //   animationData: scgit,
+  //   rendererSettings: {
+  //     preserveAspectRatio: 'xMidYMid slice'
+  //   }
+  // }
   const [loading, setLoading] = useState(false)
   useEffect(() => {
     setLoading(true)
@@ -24,13 +36,7 @@ function App() {
     <>
       {
         loading ?
-          <ScaleLoader className='Dotloader'
-            color={'#000000'}
-            loading={loading}
-            size={100}
-            aria-label="Loading Spinner"
-            data-testid="loader"
-          />
+          <ScaleLoader className='Dotloader'/>
           :
           <>
             <Header />
