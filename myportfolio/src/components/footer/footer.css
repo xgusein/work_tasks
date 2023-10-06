@@ -22,6 +22,7 @@
     justify-content: center;
     column-gap: 1.5rem;
     margin-bottom: var(--mb-2);
+    margin-top: 30px;
 }
 
 .footer__social {
@@ -51,6 +52,16 @@
     font-size: var(--smaller-font-size);
 }
 
+.foot {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    margin: 0;
+    line-height: 0;
+    &:nth-child(3) {
+        color: rgb(85, 85, 85);
+    }
+}
 
 @media screen and (max-width:992px) {
     .container {

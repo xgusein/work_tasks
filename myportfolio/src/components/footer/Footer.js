@@ -1,12 +1,17 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import './footer.css';
 
 const Footer = () => {
+    // const titles = gsap.utils.toArray('p')
     return (
         <footer className='footer'>
             <div className="footer__container container">
-                <h1 className="footer__title">Smith</h1>
-
+                <h1 className="footer__title">Huseyn</h1>
+                {/* <div className="text-wrapper">
+                    <p className='foot'>Frontender</p>
+                    <p className='foot'>UI Designer</p>
+                    <p className='foot'>Photographer</p>
+                </div> */}
                 <ul className="footer__list">
                     <li>
                         <a href="#about" className="footer__link">About</a>
@@ -31,7 +36,6 @@ const Footer = () => {
                         <i class="bx bxl-twitter"></i>
                     </a>
                 </div>
-                <span className='footer__copy'>vgdcfjknslm</span>
             </div>
         </footer>
     )

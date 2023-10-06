@@ -71,7 +71,7 @@
 
 /* For medium devices */
 
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     .header {
         top: initial;
         bottom: 0;
@@ -93,7 +93,6 @@
         transition: .3s;
     }
 
-    /* Show menu*/
 
     .show-menu {
         bottom: 0;
@@ -133,12 +132,12 @@
     .nav__toggle {
         display: block;
     }
-}
+} */
 
 
 /* Small */
 
-@media screen and (max-width:350px) {
+/* @media screen and (max-width:350px) {
     .nav__menu {
         width: 100%;
         padding: 2rem 0.25rem 4rem;
@@ -146,4 +145,4 @@
     .nav__list {
         column-gap: 0;
     }
-}
+} */

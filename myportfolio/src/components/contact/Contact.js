@@ -1,17 +1,19 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';//-com
 import './contact.css'
+import './ct'
 
 const Contact = () => {
 
     const form = useRef();
 
     const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_x99mdgz', 'template_0ie4yb4', form.current, 'QrJs0YoDKx34uYycr')
-      e.target.reset();
+        e.preventDefault();
+
+        emailjs.sendForm('service_x99mdgz', 'template_0ie4yb4', form.current, 'QrJs0YoDKx34uYycr')
+        e.target.reset();
     };
+    
     return (
         <section className="contact section" id="contact">
             <h2 className="section__title">Get in touch</h2>
@@ -61,6 +63,14 @@ const Contact = () => {
                             <label className="contact__form-tag">Project</label>
                             <textarea name="project" cols="30" rows="10" className='contact__form-input' placeholder='Write your project'></textarea>
                         </div>
+                        {/* <button className="btn"data-btn>
+                            Send
+                        </button>
+                        <div class="checkmark-container">
+                            <svg x="0px" y="0px" fill="none" class="checkmark-svg" viewBox="0 0 25 30">
+                                <path d="M2,19.2C5.9,23.6,9.4,28,9.4,28L23,2" />
+                            </svg>
+                        </div> */}
                         <button className="button button--flex">
                             Send Messages
                             <svg
